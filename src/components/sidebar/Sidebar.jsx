@@ -29,12 +29,12 @@ export default function Sidebar() {
             </li>
             </Link>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              {/* <Timeline className="sidebarIcon" /> */}
+              
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              {/* <TrendingUp className="sidebarIcon" /> */}
+              
             </li>
           </ul>
         </div>
@@ -49,21 +49,21 @@ export default function Sidebar() {
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Products
+                {/* <Storefront className="sidebarIcon" />
+                Products */}
               </li>
             </Link>
             <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Transactions
+              {/* <AttachMoney className="sidebarIcon" />
+              Transactions */}
             </li>
             <li className="sidebarListItem">
-              <BarChart className="sidebarIcon" />
-              Reports
+              {/* <BarChart className="sidebarIcon" />
+              Reports */}
             </li>
           </ul>
         </div>
-        <div className="sidebarMenu">
+        {/* <div className="sidebarMenu">
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
@@ -96,7 +96,7 @@ export default function Sidebar() {
               Reports
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
